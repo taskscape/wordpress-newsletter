@@ -47,7 +47,7 @@ function tbnp_handle_submission() {
 
     $message = "Użytkownik $email jest zainteresowany ofertą strony $site_name";
 
-    wp_mail('office@taskscape.com', 'Nowe zgłoszenie z popupu', $message);
+    wp_mail('maciej.zagozda@gmail.com', 'Nowe zgłoszenie z popupu', $message);
 
     wp_die(); // zakończ ajax
 }
